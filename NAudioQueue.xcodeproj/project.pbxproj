@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3AD5CF62334688B000F9C55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5CF52334688B000F9C55 /* AppDelegate.m */; };
+		F3AD5CF92334688B000F9C55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5CF82334688B000F9C55 /* ViewController.m */; };
+		F3AD5CFC2334688B000F9C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5CFA2334688B000F9C55 /* Main.storyboard */; };
+		F3AD5CFE2334688B000F9C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5CFD2334688B000F9C55 /* Assets.xcassets */; };
+		F3AD5D012334688B000F9C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5CFF2334688B000F9C55 /* LaunchScreen.storyboard */; };
+		F3AD5D042334688B000F9C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5D032334688B000F9C55 /* main.m */; };
+		F3AD5D0E2334688C000F9C55 /* NAudioQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5D0D2334688C000F9C55 /* NAudioQueueTests.m */; };
+		F3AD5D192334688C000F9C55 /* NAudioQueueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5D182334688C000F9C55 /* NAudioQueueUITests.m */; };
+		F3AD5D282334696C000F9C55 /* NAudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5D272334696C000F9C55 /* NAudioQueue.m */; };
+		F3AD5D2E23346D40000F9C55 /* AVAudioSession+RouteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5D2B23346D40000F9C55 /* AVAudioSession+RouteUtils.m */; };
+		F3AD5D2F23346D40000F9C55 /* NAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5D2C23346D40000F9C55 /* NAudioSession.m */; };
+		F3AD5D3623346D5C000F9C55 /* MP3Sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5D3123346D5B000F9C55 /* MP3Sample.mp3 */; };
+		F3AD5D3723346D5C000F9C55 /* MiAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5D3223346D5B000F9C55 /* MiAmor.mp3 */; };
+		F3AD5D3823346D5C000F9C55 /* CAFSample.caf in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5D3323346D5B000F9C55 /* CAFSample.caf */; };
+		F3AD5D3923346D5C000F9C55 /* M4ASample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5D3423346D5B000F9C55 /* M4ASample.m4a */; };
+		F3AD5D3A23346D5C000F9C55 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5D3523346D5B000F9C55 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a */; };
+		F3AD5D3C23346D68000F9C55 /* abc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3AD5D3B23346D68000F9C55 /* abc.mp3 */; };
+		F3AD5D4023348670000F9C55 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5D3E23348670000F9C55 /* CommonUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3AD5D0A2334688C000F9C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3AD5CE92334688B000F9C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3AD5CF02334688B000F9C55;
+			remoteInfo = NAudioQueue;
+		};
+		F3AD5D152334688C000F9C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3AD5CE92334688B000F9C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3AD5CF02334688B000F9C55;
+			remoteInfo = NAudioQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3AD5CF12334688B000F9C55 /* NAudioQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAudioQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AD5CF42334688B000F9C55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3AD5CF52334688B000F9C55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3AD5CF72334688B000F9C55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3AD5CF82334688B000F9C55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3AD5CFB2334688B000F9C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3AD5CFD2334688B000F9C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3AD5D002334688B000F9C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3AD5D022334688B000F9C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3AD5D032334688B000F9C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3AD5D092334688C000F9C55 /* NAudioQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAudioQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AD5D0D2334688C000F9C55 /* NAudioQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAudioQueueTests.m; sourceTree = "<group>"; };
+		F3AD5D0F2334688C000F9C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3AD5D142334688C000F9C55 /* NAudioQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAudioQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AD5D182334688C000F9C55 /* NAudioQueueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAudioQueueUITests.m; sourceTree = "<group>"; };
+		F3AD5D1A2334688C000F9C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3AD5D262334696C000F9C55 /* NAudioQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAudioQueue.h; sourceTree = "<group>"; };
+		F3AD5D272334696C000F9C55 /* NAudioQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAudioQueue.m; sourceTree = "<group>"; };
+		F3AD5D2A23346D40000F9C55 /* NAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAudioSession.h; sourceTree = "<group>"; };
+		F3AD5D2B23346D40000F9C55 /* AVAudioSession+RouteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioSession+RouteUtils.m"; sourceTree = "<group>"; };
+		F3AD5D2C23346D40000F9C55 /* NAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAudioSession.m; sourceTree = "<group>"; };
+		F3AD5D2D23346D40000F9C55 /* AVAudioSession+RouteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioSession+RouteUtils.h"; sourceTree = "<group>"; };
+		F3AD5D3123346D5B000F9C55 /* MP3Sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MP3Sample.mp3; sourceTree = "<group>"; };
+		F3AD5D3223346D5B000F9C55 /* MiAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MiAmor.mp3; sourceTree = "<group>"; };
+		F3AD5D3323346D5B000F9C55 /* CAFSample.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CAFSample.caf; sourceTree = "<group>"; };
+		F3AD5D3423346D5B000F9C55 /* M4ASample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = M4ASample.m4a; sourceTree = "<group>"; };
+		F3AD5D3523346D5B000F9C55 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a; sourceTree = "<group>"; };
+		F3AD5D3B23346D68000F9C55 /* abc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = abc.mp3; sourceTree = "<group>"; };
+		F3AD5D3E23348670000F9C55 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		F3AD5D3F23348670000F9C55 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3AD5CEE2334688B000F9C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD5D062334688C000F9C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD5D112334688C000F9C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3AD5CE82334688B000F9C55 = {
+			isa = PBXGroup;
+			children = (
+				F3AD5CF32334688B000F9C55 /* NAudioQueue */,
+				F3AD5D0C2334688C000F9C55 /* NAudioQueueTests */,
+				F3AD5D172334688C000F9C55 /* NAudioQueueUITests */,
+				F3AD5CF22334688B000F9C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3AD5CF22334688B000F9C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD5CF12334688B000F9C55 /* NAudioQueue.app */,
+				F3AD5D092334688C000F9C55 /* NAudioQueueTests.xctest */,
+				F3AD5D142334688C000F9C55 /* NAudioQueueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3AD5CF32334688B000F9C55 /* NAudioQueue */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD5D3D23348670000F9C55 /* utils */,
+				F3AD5D3023346D5B000F9C55 /* resource */,
+				F3AD5D2923346D40000F9C55 /* NAudioSession */,
+				F3AD5CF42334688B000F9C55 /* AppDelegate.h */,
+				F3AD5CF52334688B000F9C55 /* AppDelegate.m */,
+				F3AD5D262334696C000F9C55 /* NAudioQueue.h */,
+				F3AD5D272334696C000F9C55 /* NAudioQueue.m */,
+				F3AD5CF72334688B000F9C55 /* ViewController.h */,
+				F3AD5CF82334688B000F9C55 /* ViewController.m */,
+				F3AD5CFA2334688B000F9C55 /* Main.storyboard */,
+				F3AD5CFD2334688B000F9C55 /* Assets.xcassets */,
+				F3AD5CFF2334688B000F9C55 /* LaunchScreen.storyboard */,
+				F3AD5D022334688B000F9C55 /* Info.plist */,
+				F3AD5D032334688B000F9C55 /* main.m */,
+			);
+			path = NAudioQueue;
+			sourceTree = "<group>";
+		};
+		F3AD5D0C2334688C000F9C55 /* NAudioQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD5D0D2334688C000F9C55 /* NAudioQueueTests.m */,
+				F3AD5D0F2334688C000F9C55 /* Info.plist */,
+			);
+			path = NAudioQueueTests;
+			sourceTree = "<group>";
+		};
+		F3AD5D172334688C000F9C55 /* NAudioQueueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD5D182334688C000F9C55 /* NAudioQueueUITests.m */,
+				F3AD5D1A2334688C000F9C55 /* Info.plist */,
+			);
+			path = NAudioQueueUITests;
+			sourceTree = "<group>";
+		};
+		F3AD5D2923346D40000F9C55 /* NAudioSession */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD5D2A23346D40000F9C55 /* NAudioSession.h */,
+				F3AD5D2B23346D40000F9C55 /* AVAudioSession+RouteUtils.m */,
+				F3AD5D2C23346D40000F9C55 /* NAudioSession.m */,
+				F3AD5D2D23346D40000F9C55 /* AVAudioSession+RouteUtils.h */,
+			);
+			path = NAudioSession;
+			sourceTree = "<group>";
+		};
+		F3AD5D3023346D5B000F9C55 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD5D3B23346D68000F9C55 /* abc.mp3 */,
+				F3AD5D3123346D5B000F9C55 /* MP3Sample.mp3 */,
+				F3AD5D3223346D5B000F9C55 /* MiAmor.mp3 */,
+				F3AD5D3323346D5B000F9C55 /* CAFSample.caf */,
+				F3AD5D3423346D5B000F9C55 /* M4ASample.m4a */,
+				F3AD5D3523346D5B000F9C55 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		F3AD5D3D23348670000F9C55 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD5D3E23348670000F9C55 /* CommonUtil.m */,
+				F3AD5D3F23348670000F9C55 /* CommonUtil.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3AD5CF02334688B000F9C55 /* NAudioQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3AD5D1D2334688C000F9C55 /* Build configuration list for PBXNativeTarget "NAudioQueue" */;
+			buildPhases = (
+				F3AD5CED2334688B000F9C55 /* Sources */,
+				F3AD5CEE2334688B000F9C55 /* Frameworks */,
+				F3AD5CEF2334688B000F9C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAudioQueue;
+			productName = NAudioQueue;
+			productReference = F3AD5CF12334688B000F9C55 /* NAudioQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3AD5D082334688C000F9C55 /* NAudioQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3AD5D202334688C000F9C55 /* Build configuration list for PBXNativeTarget "NAudioQueueTests" */;
+			buildPhases = (
+				F3AD5D052334688C000F9C55 /* Sources */,
+				F3AD5D062334688C000F9C55 /* Frameworks */,
+				F3AD5D072334688C000F9C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3AD5D0B2334688C000F9C55 /* PBXTargetDependency */,
+			);
+			name = NAudioQueueTests;
+			productName = NAudioQueueTests;
+			productReference = F3AD5D092334688C000F9C55 /* NAudioQueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3AD5D132334688C000F9C55 /* NAudioQueueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3AD5D232334688C000F9C55 /* Build configuration list for PBXNativeTarget "NAudioQueueUITests" */;
+			buildPhases = (
+				F3AD5D102334688C000F9C55 /* Sources */,
+				F3AD5D112334688C000F9C55 /* Frameworks */,
+				F3AD5D122334688C000F9C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3AD5D162334688C000F9C55 /* PBXTargetDependency */,
+			);
+			name = NAudioQueueUITests;
+			productName = NAudioQueueUITests;
+			productReference = F3AD5D142334688C000F9C55 /* NAudioQueueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3AD5CE92334688B000F9C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "泽娄";
+				TargetAttributes = {
+					F3AD5CF02334688B000F9C55 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F3AD5D082334688C000F9C55 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F3AD5CF02334688B000F9C55;
+					};
+					F3AD5D132334688C000F9C55 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F3AD5CF02334688B000F9C55;
+					};
+				};
+			};
+			buildConfigurationList = F3AD5CEC2334688B000F9C55 /* Build configuration list for PBXProject "NAudioQueue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3AD5CE82334688B000F9C55;
+			productRefGroup = F3AD5CF22334688B000F9C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3AD5CF02334688B000F9C55 /* NAudioQueue */,
+				F3AD5D082334688C000F9C55 /* NAudioQueueTests */,
+				F3AD5D132334688C000F9C55 /* NAudioQueueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3AD5CEF2334688B000F9C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD5D3923346D5C000F9C55 /* M4ASample.m4a in Resources */,
+				F3AD5D012334688B000F9C55 /* LaunchScreen.storyboard in Resources */,
+				F3AD5D3A23346D5C000F9C55 /* 0fe2a7e9c51012210eaaa1e2b103b1b1.m4a in Resources */,
+				F3AD5D3C23346D68000F9C55 /* abc.mp3 in Resources */,
+				F3AD5D3723346D5C000F9C55 /* MiAmor.mp3 in Resources */,
+				F3AD5D3623346D5C000F9C55 /* MP3Sample.mp3 in Resources */,
+				F3AD5D3823346D5C000F9C55 /* CAFSample.caf in Resources */,
+				F3AD5CFE2334688B000F9C55 /* Assets.xcassets in Resources */,
+				F3AD5CFC2334688B000F9C55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD5D072334688C000F9C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD5D122334688C000F9C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3AD5CED2334688B000F9C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD5CF92334688B000F9C55 /* ViewController.m in Sources */,
+				F3AD5D282334696C000F9C55 /* NAudioQueue.m in Sources */,
+				F3AD5D4023348670000F9C55 /* CommonUtil.m in Sources */,
+				F3AD5D2E23346D40000F9C55 /* AVAudioSession+RouteUtils.m in Sources */,
+				F3AD5D042334688B000F9C55 /* main.m in Sources */,
+				F3AD5D2F23346D40000F9C55 /* NAudioSession.m in Sources */,
+				F3AD5CF62334688B000F9C55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD5D052334688C000F9C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD5D0E2334688C000F9C55 /* NAudioQueueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD5D102334688C000F9C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD5D192334688C000F9C55 /* NAudioQueueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3AD5D0B2334688C000F9C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3AD5CF02334688B000F9C55 /* NAudioQueue */;
+			targetProxy = F3AD5D0A2334688C000F9C55 /* PBXContainerItemProxy */;
+		};
+		F3AD5D162334688C000F9C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3AD5CF02334688B000F9C55 /* NAudioQueue */;
+			targetProxy = F3AD5D152334688C000F9C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3AD5CFA2334688B000F9C55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3AD5CFB2334688B000F9C55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3AD5CFF2334688B000F9C55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3AD5D002334688B000F9C55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3AD5D1B2334688C000F9C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3AD5D1C2334688C000F9C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3AD5D1E2334688C000F9C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2PP5K6334;
+				INFOPLIST_FILE = NAudioQueue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgeon.NAUGPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3AD5D1F2334688C000F9C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2PP5K6334;
+				INFOPLIST_FILE = NAudioQueue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgeon.NAUGPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3AD5D212334688C000F9C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2PP5K6334;
+				INFOPLIST_FILE = NAudioQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgeon.NAudioQueueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAudioQueue.app/NAudioQueue";
+			};
+			name = Debug;
+		};
+		F3AD5D222334688C000F9C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2PP5K6334;
+				INFOPLIST_FILE = NAudioQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgeon.NAudioQueueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAudioQueue.app/NAudioQueue";
+			};
+			name = Release;
+		};
+		F3AD5D242334688C000F9C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2PP5K6334;
+				INFOPLIST_FILE = NAudioQueueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgeon.NAudioQueueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NAudioQueue;
+			};
+			name = Debug;
+		};
+		F3AD5D252334688C000F9C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2PP5K6334;
+				INFOPLIST_FILE = NAudioQueueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgeon.NAudioQueueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NAudioQueue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3AD5CEC2334688B000F9C55 /* Build configuration list for PBXProject "NAudioQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AD5D1B2334688C000F9C55 /* Debug */,
+				F3AD5D1C2334688C000F9C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3AD5D1D2334688C000F9C55 /* Build configuration list for PBXNativeTarget "NAudioQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AD5D1E2334688C000F9C55 /* Debug */,
+				F3AD5D1F2334688C000F9C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3AD5D202334688C000F9C55 /* Build configuration list for PBXNativeTarget "NAudioQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AD5D212334688C000F9C55 /* Debug */,
+				F3AD5D222334688C000F9C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3AD5D232334688C000F9C55 /* Build configuration list for PBXNativeTarget "NAudioQueueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AD5D242334688C000F9C55 /* Debug */,
+				F3AD5D252334688C000F9C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3AD5CE92334688B000F9C55 /* Project object */;
+}
